@@ -14,11 +14,11 @@ const mainNav = [
     },
     {
         display: "Bảo hành",
-        path: "/accessories"
+        path: "/warranty"
     },
     {
-        display: "Liên hệ",
-        path: "/contact"
+        display: "About",
+        path: "/about"
     }
 ]
 
@@ -51,7 +51,7 @@ const Header = () => {
             <div className="container">
                 <div className="header__logo">
                     <Link to="/">
-                        <img src={logo} alt="" />
+                        <img src={logo} alt="logo__2Shoes" />
                     </Link>
                 </div>
                 <div className="header__menu">

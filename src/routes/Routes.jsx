@@ -6,6 +6,8 @@ import Home from '../pages/Home'
 import Catalog from '../pages/Catalog'
 import Cart from '../pages/Cart'
 import Product from '../pages/Product'
+import Warranty from '../pages/Warranty'
+import About from '../pages/About'
 
 const Routes = () => {
     return (
@@ -14,6 +16,8 @@ const Routes = () => {
             <Route path='/catalog/:slug' component={Product}/>
             <Route path='/catalog' component={Catalog}/>
             <Route path='/cart' component={Cart}/>
+            <Route path='/warranty' component={Warranty}/>
+            <Route path='/about' component={About}/>
         </Switch>
     )
 }
